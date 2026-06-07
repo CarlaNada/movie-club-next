@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return(
-    <nav className="sticky top-0 z-50 backdrop-blur-md flex items-center justify-between gap-2 font-sans p-3">
+    <nav className="absolute sticky top-0 z-50 backdrop-blur-md flex items-center justify-between gap-2 font-sans p-3">
       <h2 className="flex text-3xl font-bold pl-3">
         <Link href={"/"}>MovieClub</Link>
       </h2>
